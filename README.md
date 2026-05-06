@@ -1,26 +1,30 @@
 # cb.sc.u4cse23345
 
-Backend evaluation submission.
+#backend
+
+---
 
 ## Folder Structure
 
+```
 cb.sc.u4cse23345/
 ├── logging_middleware/              # Reusable logging package (used by all modules)
 │   ├── index.js                     # Log(stack, level, package, message) function
 │   └── package.json
 │
-├── vehicle_maintenance_scheduler/     # Vehicle Maintenance Scheduler Microservice
-│   ├── server.js                  # 0/1 Knapsack DP algorithm
+├── vehicle_maintence_scheduler/     # Vehicle Maintenance Scheduler Microservice
+│   ├── solution.js                  # 0/1 Knapsack DP algorithm
 │   └── package.json
 │
 ├── notification_app_be/             # Campus Notifications Backend (Stage 6)
-│   ├── server.js            # Min-Heap top-N priority inbox
+│   ├── priority_inbox.js            # Min-Heap top-N priority inbox
 │   └── package.json
 │
 ├── notification_system_design.md    # Stages 1–6 written design document
 ├── .gitignore
 ├── package.json                     # Root package with helper scripts
 └── README.md
+```
 
 ---
 
